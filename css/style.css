@@ -1,0 +1,85 @@
+
+.avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 30px;
+    border-radius: 100%;
+    border: 2px solid #aaa;
+    background-size: cover;
+}
+
+.navbar-fixed-bottom{
+	height: 44px;
+	background-color: #F5F5F5;
+}
+
+.navbar-top{
+	height: 44px;
+	background-color: #F5F5F5;
+}
+
+.comp-shaiwawa{
+	background-color: rgba(120,200,16, 1);
+}
+
+.sww-navbar-image{
+	width: 44px;
+	height: 44px;
+}
+
+body {
+	/* On modern browsers, prevent the whole page to bounce */
+	overflow: hidden;
+}
+
+#sww-timeline {
+
+	overflow: hidden;
+
+	/* Prevent native touch events on Windows */
+	-ms-touch-action: none;
+
+	/* Prevent the callout on tap-hold and text selection */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	/* Prevent text resize on orientation change, useful for web-apps */
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+#scroller {
+	position: absolute;
+
+	/* Prevent elements to be highlighted on tap */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+	/* Put the scroller into the HW Compositing layer right from the start */
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.input-shaiwawa:focus{
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(120, 200, 16, 0.6)
+}
+
+.social-logo-icon {
+	width: 60px;
+	height: 60px;
+}
+
+.col-centered{
+    float: none;
+margin-left:auto;
+margin-right:auto;
+width:70%;
+}
+

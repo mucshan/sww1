@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Login</title>
+		<link rel="stylesheet" href="css\bootstrap.css">
+		<link rel="stylesheet" href="css\style.css">
+		
+		<script src="libs/iscroll.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/timeline.js" type="text/javascript" charset="utf-8"></script>
+		
+<script type="text/javascript">
+
+var myScroll;
+
+function loaded () {
+	myScroll = new IScroll('#sww-timeline');
+}
+
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+
+</script>
+		
+	</head>
+	<body onload="loaded()">
+
+		<nav class="navbar navbar-default comp-shaiwawa" >
+<div class="pull-left">
+  
+
+			<ul class="nav navbar-nav">
+
+				<li>
+					<button>
+						<img src="res/menu.png" class="sww-navbar-image" />
+					</button>
+				</li>
+
+				
+				
+			</ul>
+
+			</div>
+			<div class="pull-right">
+
+					<img src="res/right.PNG" alt="" style="height:44px; width: 120px"/>
+				
+			</div>
+		</nav>
+
+		<div id="sww-timeline" stype="width:100%">
+			<div id="scroller">
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />
+			<img src="res/TimelineItem.jpg" style="display:block; width:100%" />					
+		</div></div>
+
+
+	</body>
+</html>

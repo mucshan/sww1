@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login</title>
+		<link rel="stylesheet" href="css\bootstrap.css">
+		<link rel="stylesheet" href="css\style.css">
+	</head>
+
+	<body>
+		<div class="container" style="top:10%; position: relative;">
+			<div class="row">
+				<img src="res/logo.png" class="img-circle img-responsive" alt="Responsive image"
+				style="width: 120px; height: 120px; position:relative; margin: 0 auto 44px;"/>
+			</div>
+			<form action="timeline.html">
+				<div class="form-group">
+					<div class="input-group" style="margin-bottom: 25px">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						<input name="user" type="text" 	class="form-control input-shaiwawa" placeholder="电子邮件" required>
+					</div>
+
+					<div style="margin-bottom: 25px" class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+						<input type="password" class="form-control input-shaiwawa"  placeholder="密码" required>
+					</div>
+				</div>
+				<button class="btn btn-info btn-block login comp-shaiwawa" type="submit">
+					登录
+				</button>
+			</form>
+			<div class="row" style="margin-top: 50px">
+				<div class="col-xs-6">
+					<a class="btn btn-default btn-block"> <img src="res\weibo.png" class="social-logo-icon" /> <h4>微博登录</h4> <a>
+				</div>
+
+				<div class="col-xs-6">
+					<a class="btn btn-default btn-block"> <img src="res\qq.png" class="social-logo-icon"/> <h4>QQ登录</h4> <a>
+				</div>
+			</div>
+		</div>
+
+		<div class="navbar navbar-fixed-bottom">
+			<a class="btn pull-left"> 忘记密码了? </a>
+			<b> <a href="register.html" class="btn btn default pull-right"> 快速注册 </a> </b>
+		</div>
+		
+
+	</body>
+</html>
